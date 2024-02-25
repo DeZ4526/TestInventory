@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc0d425df7610f24db32e0ed24fd85d0, type: 3}
+  m_Name: InventoryItemsSO
+  m_EditorClassIdentifier: 
+  items: []
+  clothes:
+  - name: "\u041A\u0443\u0440\u0442\u043A\u0430"
+    description: "\u041A\u0443\u0440\u0442\u043A\u0430"
+    icon: {fileID: 21300000, guid: 607d992485b704b4ea7eff19bae2d8b5, type: 3}
+    max: 1
+    type: 2
+    weight: 1
+    armor: 3
+    armorType: 1
+  - name: "\u0411\u0440\u043E\u043D\u0435\u0436\u0438\u043B\u0435\u0442"
+    description: "\u0411\u0440\u043E\u043D\u0435\u0436\u0438\u043B\u0435\u0442"
+    icon: {fileID: 21300000, guid: 3bebf37399e1ccc47a061bc43c1a980b, type: 3}
+    max: 1
+    type: 2
+    weight: 10
+    armor: 10
+    armorType: 1
+  - name: "\u041A\u0435\u043F\u043A\u0430 "
+    description: "\u041A\u0435\u043F\u043A\u0430 "
+    icon: {fileID: 21300000, guid: 208886d4460663542a9f6c799f267770, type: 3}
+    max: 1
+    type: 2
+    weight: 0.1
+    armor: 3
+    armorType: 0
+  - name: "\u0428\u043B\u0435\u043C "
+    description: "\u0428\u043B\u0435\u043C "
+    icon: {fileID: 21300000, guid: c391d34b56db05a4698a4fc0ed7da9c7, type: 3}
+    max: 1
+    type: 2
+    weight: 1
+    armor: 10
+    armorType: 0
+  medics:
+  - name: "\u0410\u043F\u0442\u0435\u0447\u043A\u0430 "
+    description: "\u0410\u043F\u0442\u0435\u0447\u043A\u0430 "
+    icon: {fileID: 21300000, guid: 67b8c9f9afc4efe4f9309fddabad9037, type: 3}
+    max: 6
+    type: 1
+    weight: 1
+    hp: 50
+  ammos:
+  - name: "\u041F\u0430\u0442\u0440\u043E\u043D\u044B 9\u044518\u043C\u043C (\u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u043D\u044B\u0435) "
+    description: "\u041F\u0430\u0442\u0440\u043E\u043D\u044B 9\u044518\u043C\u043C
+      (\u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u043D\u044B\u0435) "
+    icon: {fileID: 21300000, guid: 3ddab81039c692441b783aa416cdd2ee, type: 3}
+    max: 50
+    type: 0
+    weight: 0.01
+  - name: "\u041F\u0430\u0442\u0440\u043E\u043D\u044B 5.45\u044539 (\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043D\u044B\u0435)"
+    description: "\u041F\u0430\u0442\u0440\u043E\u043D\u044B 5.45\u044539 (\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043D\u044B\u0435)"
+    icon: {fileID: 21300000, guid: ed146c30ca75a684aacee1024659c9e4, type: 3}
+    max: 100
+    type: 0
+    weight: 0.03
